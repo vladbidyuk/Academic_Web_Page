@@ -1,0 +1,128 @@
+body{
+	margin: 0;
+}
+
+
+/*----------------------------------------------------------------------------*/
+.header{
+	height: 200px;
+	background-color: #eee;
+}
+.header img{
+	width: 600px; 
+	height: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*------------------------------------------*/
+ul.menu {
+	margin: 0;
+	padding: 4px;
+	text-align: center;
+}
+
+ul.menu li{
+	display: inline;
+	margin-right: 5px;
+	padding: 5px;
+	font-size: 18pt;
+}
+/*----------------------------------------------------------------------------*/
+.middle{
+	margin-top: 10px; 
+}
+/*------------------------------------*/
+
+section.article{
+	background-color: #e6e6e6;
+	height: 900px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+section.article h3{
+	text-align: center;
+	padding-bottom: 10px; 
+}
+section.article img{
+	height: 250px;
+	width: 500px;
+	float: left;
+}
+#news1{
+	background-color: #804080;
+	height: 250px;
+	width: 750px;
+	margin-bottom: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#news2{
+	background-color: #804080;
+	height: 250px;
+	width: 750px;
+	margin-bottom: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#news3{
+	background-color: #804080;
+	height: 250px;
+	width: 750px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*------------------------------------*/
+
+aside.news{
+	background-color: #e6e6e6;
+	height: 900px;
+	padding: 10px;
+}
+.news h3{
+	text-align: center;
+	padding-bottom: 13px;
+}
+/*------------------------------------*/
+.coments{
+	height: 250px;
+	margin-top: 15px;
+	background-color: white;
+}
+
+
+
+/*----------------------------------------------------------------------------*/
+.footer{
+	clear: both;
+	height: 203px;
+	background-color: #804080;
+	margin-right: auto;
+    margin-left: auto;
+}
+}
+#foot {
+    padding: 0px 0px 0px 0px;
+}
+#siteMap, #brands, #contactInfo {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+[class*="col-"] {
+    padding: 15px;
+}
+/*---------------------------------*/
+#underground {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    color: white;
+    background-color: #333333;
+    padding: 0px;
+    text-align: center;
+}

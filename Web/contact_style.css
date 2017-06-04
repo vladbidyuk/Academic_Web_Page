@@ -1,0 +1,92 @@
+body{	margin: 0;	}
+/*----------------------------------------------------------------------------*/
+.header{
+	height: 200px;
+	background-color: #eee;
+}
+.header img{
+	width: 600px; 
+	height: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*------------------------------------------*/
+ul.menu {
+	margin: 0;
+	padding: 4px;
+	text-align: center;
+}
+
+ul.menu li{
+	display: inline;
+	margin-right: 5px;
+	padding: 5px;
+	font-size: 18pt;
+}
+/*----------------------------------------------------------------------------*/
+.main .col-sm-8 {
+    background: #ffffff;
+    padding: 0px 0px 70px 0px;
+    box-shadow: 0 6px 20px 0 rgba(0,0,0,0.25);
+    text-align: left;
+}
+#map{
+	height: 350px;
+	background-color: grey;
+}
+/*----------------------------------------------------------------------------*/
+#coments{
+	height: 300px;
+
+}
+
+
+/*----------------------------------------------------------------------------*/
+.bla{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.bla ul{
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.bla li{
+	 list-style-type: none; /* Убираем маркеры */
+}
+
+
+
+/*----------------------------------------------------------------------------*/
+.footer{
+	clear: both;
+	height: 203px;
+	background-color: #804080;
+	margin-right: auto;
+    margin-left: auto;
+}
+}
+#foot {
+    padding: 0px 0px 0px 0px;
+}
+#siteMap, #brands, #contactInfo {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+[class*="col-"] {
+    padding: 15px;
+}
+/*---------------------------------*/
+#underground {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    color: white;
+    background-color: #333333;
+    padding: 0px;
+    text-align: center;
+}
